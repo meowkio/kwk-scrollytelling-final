@@ -1,0 +1,105 @@
+[
+  {
+    "billID": 1,
+    "title": "Routine Checkup",
+    "total": 1000,
+    "items": [
+      {
+        "description": "Office Visit",
+        "amount": 150,
+        "covered": true,
+        "patientPays": 40,
+        "note": "Co-pay"
+      },
+      {
+        "description": "Blood Tests",
+        "amount": 200,
+        "covered": true,
+        "patientPays": 100,
+        "note": "Co-insurance"
+      },
+      {
+        "description": "Spirometry (Lung Test)",
+        "amount": 300,
+        "covered": true
+      },
+      {
+        "description": "Clinic Admin Fee",
+        "amount": 50,
+        "covered": false
+      },
+      {
+        "description": "Asthma Inhaler Refill",
+        "amount": 300,
+        "covered": true,
+        "patientPays": 120,
+        "note": "Drug not fully covered"
+      }
+    ],
+    "total out of pocket": 310
+  },
+  {
+    "billID": 2,
+    "title": "Emergency Room Visit",
+    "total": 2200,
+    "items": [
+      {
+        "description": "ER Facility Fee",
+        "amount": 1200,
+        "covered": true,
+        "patientPays": 300,
+        "note": "After deductible"
+      },
+      {
+        "description": "Nebulizer Treatment",
+        "amount": 400,
+        "covered": true
+      },
+      {
+        "description": "Chest X-Ray",
+        "amount": 350,
+        "covered": false
+      },
+      {
+        "description": "Oxygen Administration",
+        "amount": 250,
+        "covered": false
+      }
+    ],
+    "total out of pocket": 900
+  },
+  {
+    "billID": 3,
+    "title": "Hospitalisation",
+    "total": 9700,
+    "items": [
+      {
+        "description": "Room and Board (2 nights)",
+        "amount": 6000,
+        "covered": true,
+        "patientPays": 3600,
+        "note": "Deductible met"
+      },
+      {
+        "description": "Respiratory Therapy Suite",
+        "amount": 1200,
+        "covered": true,
+        "patientPays": 240,
+        "note": "Deductible met"
+      },
+      {
+        "description": "CT Scan",
+        "amount": 1500,
+        "covered": false
+      },
+      {
+        "description": "Medications & Nursing",
+        "amount": 1000,
+        "covered": true,
+        "patientPays": 200,
+        "note": "Deductible met"
+      }
+    ],
+    "total out of pocket": 5540
+  }
+]

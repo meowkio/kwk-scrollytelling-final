@@ -1,0 +1,21 @@
+{
+  "name": "kwk-scrollytelling-final-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.28.1",
+    "vite": "^6.3.5",
+    "vite-plugin-gh-pages": "^1.0.1"
+  },
+  "dependencies": {
+    "@highcharts/svelte": "^1.1.1",
+    "highcharts": "^12.3.0"
+  }
+}
